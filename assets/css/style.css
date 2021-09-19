@@ -1,0 +1,27 @@
+/*changes the color of the navbar-brand text to purple */
+.navbar-light .navbar-brand {
+    color: purple;
+  }
+  /* styles the timer */
+  #timer {
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  #score-page  {
+      visibility: hidden;
+  }
+
+  .btn-primary {
+    background-color: purple;
+    border: solid black 1px;
+  }
+  /* aligns all question answer buttons to the left and stacks them vertically */
+  #answers .btn {
+    display: block;
+  }
+  
+  .feedback {
+    border-top: grey solid 1px;
+    font-style: italic;
+  }

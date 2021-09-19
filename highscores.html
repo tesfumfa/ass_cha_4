@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Highscores</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <!-- Container that holds all the highscores that have been submitted. -->
+    <main class="container my-5 py-5 text-left">
+      <div class="row">
+        <div class="col-8">
+          <h1>Highscores</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-8">
+          <ul class="list-group mt-3" id="scores"></ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 mt-4">
+          <button class="btn btn-primary rounded" id="restart-quiz">Go Back</button>
+          <button class="btn btn-primary rounded" id="clear-history">Clear Highscores</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="assets/js/highscores.js"></script>
+  </body>
+</html>
